@@ -15,11 +15,11 @@ public class TowerOfHanoi {
     static void solve(int n, int s, int d, int h) {
         count++;
         if (n == 1) {
-            System.out.println("Moving plate 1 from source to destination");
+            System.out.println("Moving plate 1 from "+ s +" to " + d);
             return;
         }
         solve(n - 1, s, h, d);
-        System.out.println("Moving plate " + n + " from source to destination ");
+        System.out.println("Moving plate " + n + " from "+ s +" to "+d);
         solve(n - 1, h, d, s);
 
     }
