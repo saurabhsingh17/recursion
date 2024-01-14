@@ -1,5 +1,3 @@
-package recursion;
-
 import java.util.Stack;
 
 public class SortAStack {

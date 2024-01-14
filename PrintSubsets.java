@@ -1,5 +1,3 @@
-package recursion;
-
 public class PrintSubsets {
     static int count = 0;
 

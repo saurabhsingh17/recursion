@@ -1,5 +1,3 @@
-package recursion;
-
 public class PrintNto1 {
     public static void printNto1(int n) {
         if (n == 0) {

@@ -1,4 +1,10 @@
-class Solution {
+import java.util.ArrayList;
+
+class JosepheusProblem {
+    public static void main(String[] args) {
+        JosepheusProblem josepheusProblem = new JosepheusProblem();
+        System.out.println(josepheusProblem.findTheWinner(5,2));
+    }
     public int findTheWinner(int n, int k) {
         ArrayList<Integer> peoples = new ArrayList<>();
         for (int i = 1; i <= n; i++) {

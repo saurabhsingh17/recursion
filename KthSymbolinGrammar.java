@@ -1,5 +1,3 @@
-package recursion;
-
 public class KthSymbolinGrammar {
     public static int kthGrammar(int n, int k) {
         int mid = (int) (Math.pow(2,n-1)/2);

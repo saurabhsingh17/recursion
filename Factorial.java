@@ -1,5 +1,3 @@
-package recursion;
-
 import java.math.BigInteger;
 
 public class Factorial {
