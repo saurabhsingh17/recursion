@@ -1,4 +1,4 @@
-/*
+package adityaverma;/*
 Tower of Hanoi is a classical recursive problem with simple solution.
 Solution is to move n-1 plates from source to helper and then move n-th plate
 from source to destination. Then finally moving n-1 plates from helper to destination

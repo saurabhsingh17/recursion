@@ -1,3 +1,5 @@
+package adityaverma;
+
 public class Print1toN {
     public static void print1ToN(int n) {
 

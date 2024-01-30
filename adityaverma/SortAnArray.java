@@ -1,3 +1,5 @@
+package adityaverma;
+
 import java.util.ArrayList;
 
 public class SortAnArray {
@@ -36,6 +38,6 @@ public class SortAnArray {
         arr.add(111);
         arr.add(0);
         sort(arr);
-        System.out.println(arr);;
+        System.out.println(arr);
     }
 }

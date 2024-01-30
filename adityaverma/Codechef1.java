@@ -1,3 +1,5 @@
+package adityaverma;
+
 public class Codechef1 {
     static String printDays(int n){
         return switch (n){

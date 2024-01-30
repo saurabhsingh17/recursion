@@ -1,3 +1,5 @@
+package adityaverma;
+
 public class EnhancedSwitchCases {
     public static String process(Object message){
         return switch (message){
